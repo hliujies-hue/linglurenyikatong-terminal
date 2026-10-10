@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.lingluren.yikatong.terminal'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.lingluren.yikatong.terminal'
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName '0.1.0'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+}
