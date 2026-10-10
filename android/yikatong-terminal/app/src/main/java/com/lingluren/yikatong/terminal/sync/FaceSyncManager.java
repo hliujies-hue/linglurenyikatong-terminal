@@ -1,18 +1,20 @@
 package com.lingluren.yikatong.terminal.sync;
 
 /**
- * 人脸特征同步管理。
+ * 人脸增量同步入口。
  *
- * 后续接入一卡通后台增量同步接口。
- * 设备仅同步有效权益会员。
+ * 规则：
+ * - 仅同步有效权益会员
+ * - 退款、过期、拉黑、禁用执行删除同步
  */
 public class FaceSyncManager {
 
     public void sync() {
-        // TODO: 拉取新增、更新、删除事件
+        // TODO connect yikatong backend API
+        // TODO process ADD / UPDATE / DELETE events
     }
 
-    public void deleteFace(String memberId) {
-        // TODO: 删除退款、过期、拉黑会员的人脸特征
+    public void deleteFace(String memberId, String reason) {
+        // TODO remove local feature and SDK cache
     }
 }
