@@ -1,0 +1,25 @@
+# Android Studio
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# Build
+/build/
+*/build/
+
+# APK
+*.apk
+*.aab
+
+# Signing
+*.jks
+*.keystore
+
+# Baidu SDK license
+License.zip
+license/
+*.license
+
+# Logs
+*.log
