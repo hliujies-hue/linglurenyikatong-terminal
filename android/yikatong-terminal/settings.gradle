@@ -21,3 +21,5 @@ include(":faceaar")
 include(":datalibrary")
 include(":facelibrary")
 include(":gatelibrary")
+
+// 百度 FaceSDKAndroid 通用工程模块入口
